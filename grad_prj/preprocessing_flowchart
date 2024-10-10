@@ -1,0 +1,11 @@
+digraph {
+	A [label="Raw Data" color=lightblue shape=box style=filled]
+	B [label="Handle Missing Values" color=lightblue shape=box style=filled]
+	C [label="Normalize Data" color=lightblue shape=box style=filled]
+	D [label="Create Sequences" color=lightblue shape=box style=filled]
+	E [label="Train-Test Split" color=lightblue shape=box style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+}

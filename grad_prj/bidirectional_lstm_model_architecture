@@ -1,0 +1,11 @@
+digraph {
+	A [label="Input Layer" color=lightblue shape=box style=filled]
+	B [label="Bidirectional LSTM Layer 1" color=lightblue shape=box style=filled]
+	C [label="Bidirectional LSTM Layer 2" color=lightblue shape=box style=filled]
+	D [label="Dense Layer" color=lightblue shape=box style=filled]
+	E [label="Output Layer" color=lightblue shape=box style=filled]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+}

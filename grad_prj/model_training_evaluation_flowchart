@@ -1,0 +1,7 @@
+digraph {
+	A [label="Data Preprocessing" color=lightblue shape=box style=filled]
+	B [label="Model Training" color=lightblue shape=box style=filled]
+	C [label="Model Evaluation" color=lightblue shape=box style=filled]
+	A -> B
+	B -> C
+}
